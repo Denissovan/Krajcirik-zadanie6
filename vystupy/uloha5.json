@@ -1,0 +1,52 @@
+﻿[
+  {
+    "trump": {
+"identity": 29616,
+"labels": [
+        "Account"
+      ],
+"properties": {
+"friends_count": 50,
+"screen_name": "realDonaldTrump",
+"statuses_count": 56081,
+"followers_count": 86091475,
+"name": "Donald J. Trump",
+"description": "45th President of the United States of America🇺🇸",
+"id": "25073877"
+      }
+    },
+    "najretweet_trumpa": {
+"identity": 318038,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"happened_at_str": "2020-07-31 18:03:12+00",
+"favorite_count": 76775,
+"id": "1289260338135699456",
+"author_id": "25073877",
+"content": "Great job by Jim Jordan, and also some very good statements by Tony Fauci. Big progress being made! https://t.co/8Oeca9H3yq",
+"retweet_count": 18818
+      }
+    },
+    "denis": {
+"identity": 676696,
+"labels": [
+        "Account"
+      ],
+"properties": {
+"screen_name": "DeDe",
+"name": "denis"
+      }
+    },
+    "moj_tweet": {
+"identity": 676697,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"content": "epstein did not kill himself!"
+      }
+    }
+  }
+]

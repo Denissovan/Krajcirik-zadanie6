@@ -1,0 +1,130 @@
+﻿[
+  {
+    "other_acc": {
+"identity": 174398,
+"labels": [
+        "Account"
+      ],
+"properties": {
+"friends_count": 12,
+"screen_name": "Aquilesreyes9",
+"statuses_count": 330,
+"followers_count": 1,
+"name": "Aquilesreyes",
+"description": "",
+"id": "1246647610879795202"
+      }
+    },
+    "same_retweets": 3
+  },
+  {
+    "other_acc": {
+"identity": 261154,
+"labels": [
+        "Account"
+      ],
+"properties": {
+"friends_count": 3,
+"screen_name": "GusRodr05589737",
+"statuses_count": 393,
+"followers_count": 4,
+"name": "Gus Rodriguez",
+"description": "simple",
+"id": "1246675162717491204"
+      }
+    },
+    "same_retweets": 3
+  },
+  {
+    "other_acc": {
+"identity": 57454,
+"labels": [
+        "Account"
+      ],
+"properties": {
+"friends_count": 507,
+"screen_name": "GoretiLiza",
+"statuses_count": 23768,
+"followers_count": 577,
+"name": "goreti josefina liza",
+"description": "Mtria. en Pedagogía, Mtria. en Política y Gestión Pública, Lic. Educ. Prim. y Secundaria, Secretario de Innovación y Reingenieria Organizativa del CEN del SNTE",
+"id": "1688430068"
+      }
+    },
+    "same_retweets": 3
+  },
+  {
+    "other_acc": {
+"identity": 90699,
+"labels": [
+        "Account"
+      ],
+"properties": {
+"friends_count": 13,
+"screen_name": "BetyRod50219672",
+"statuses_count": 826,
+"followers_count": 14,
+"name": "Bety Rodriguez",
+"description": "Profesora SNTE sección 1 preescolar",
+"id": "1247338058661408769"
+      }
+    },
+    "same_retweets": 2
+  },
+  {
+    "other_acc": {
+"identity": 122661,
+"labels": [
+        "Account"
+      ],
+"properties": {
+"friends_count": 61,
+"screen_name": "CCARSOLIOO",
+"statuses_count": 990,
+"followers_count": 10,
+"name": "GUILLERMO ROMERO",
+"description": "",
+"id": "186609803"
+      }
+    },
+    "same_retweets": 1
+  },
+  {
+    "other_acc": {
+"identity": 219567,
+"labels": [
+        "Account"
+      ],
+"properties": {
+"friends_count": 75,
+"screen_name": "elizagomalcala",
+"statuses_count": 6634,
+"followers_count": 68,
+"name": "elizabeth",
+"description": "",
+"id": "2371169797"
+      }
+    },
+    "same_retweets": 1
+  },
+  {
+    "other_acc": {
+"identity": 37910,
+"labels": [
+        "Account"
+      ],
+"properties": {
+"friends_count": 4992,
+"screen_name": "viralvideovlogs",
+"statuses_count": 313950,
+"followers_count": 3906,
+"name": "#StayHome",
+"description": "news news news and trends
+
+https://t.co/2ScZqTGWgG",
+"id": "952247125185720320"
+      }
+    },
+    "same_retweets": 1
+  }
+]

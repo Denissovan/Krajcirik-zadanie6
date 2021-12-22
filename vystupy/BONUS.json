@@ -1,0 +1,235 @@
+﻿[
+  {
+    "path": {
+"start": {
+"identity": 55286,
+"labels": [
+          "Account"
+        ],
+"properties": {
+"friends_count": 224,
+"screen_name": "katyperry",
+"statuses_count": 10881,
+"followers_count": 108521347,
+"name": "KATY PERRY",
+"description": "Love. Light.",
+"id": "21447363"
+        }
+      },
+"end": {
+"identity": 29616,
+"labels": [
+          "Account"
+        ],
+"properties": {
+"friends_count": 50,
+"screen_name": "realDonaldTrump",
+"statuses_count": 56081,
+"followers_count": 86091475,
+"name": "Donald J. Trump",
+"description": "45th President of the United States of America🇺🇸",
+"id": "25073877"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 55286,
+"labels": [
+              "Account"
+            ],
+"properties": {
+"friends_count": 224,
+"screen_name": "katyperry",
+"statuses_count": 10881,
+"followers_count": 108521347,
+"name": "KATY PERRY",
+"description": "Love. Light.",
+"id": "21447363"
+            }
+          },
+          "relationship": {
+"identity": 2245650,
+"start": 55286,
+"end": 676211,
+"type": "POSTS",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 676211,
+"labels": [
+              "Tweet"
+            ],
+"properties": {
+"content": "Is this real Donald Trumps tweet???"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 676211,
+"labels": [
+              "Tweet"
+            ],
+"properties": {
+"content": "Is this real Donald Trumps tweet???"
+            }
+          },
+          "relationship": {
+"identity": 2245654,
+"start": 676211,
+"end": 676212,
+"type": "RETWEETS",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 676212,
+"labels": [
+              "Tweet"
+            ],
+"properties": {
+"content": "I am the real Donald Trump! ;)"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 676212,
+"labels": [
+              "Tweet"
+            ],
+"properties": {
+"content": "I am the real Donald Trump! ;)"
+            }
+          },
+          "relationship": {
+"identity": 2245655,
+"start": 676208,
+"end": 676212,
+"type": "POSTS",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 676208,
+"labels": [
+              "Account"
+            ],
+"properties": {
+"screen_name": "unrealDonaldTrump"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 676208,
+"labels": [
+              "Account"
+            ],
+"properties": {
+"screen_name": "unrealDonaldTrump"
+            }
+          },
+          "relationship": {
+"identity": 2245656,
+"start": 676208,
+"end": 676213,
+"type": "POSTS",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 676213,
+"labels": [
+              "Tweet"
+            ],
+"properties": {
+"content": "Cool Retweet donaldovho tweetu"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 676213,
+"labels": [
+              "Tweet"
+            ],
+"properties": {
+"content": "Cool Retweet donaldovho tweetu"
+            }
+          },
+          "relationship": {
+"identity": 2245657,
+"start": 676213,
+"end": 338825,
+"type": "RETWEETS",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 338825,
+"labels": [
+              "Tweet"
+            ],
+"properties": {
+"happened_at_str": "2020-03-28 02:29:57+00",
+"favorite_count": 122342,
+"id": "1243726993537073152",
+"author_id": "25073877",
+"content": "I love Michigan, one of the reasons we are doing such a GREAT job for them during this horrible Pandemic. Yet your Governor, Gretchen “Half” Whitmer is way in over her head, she doesn’t have a clue. Likes blaming everyone for her own ineptitude! #MAGA",
+"retweet_count": 23858
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 338825,
+"labels": [
+              "Tweet"
+            ],
+"properties": {
+"happened_at_str": "2020-03-28 02:29:57+00",
+"favorite_count": 122342,
+"id": "1243726993537073152",
+"author_id": "25073877",
+"content": "I love Michigan, one of the reasons we are doing such a GREAT job for them during this horrible Pandemic. Yet your Governor, Gretchen “Half” Whitmer is way in over her head, she doesn’t have a clue. Likes blaming everyone for her own ineptitude! #MAGA",
+"retweet_count": 23858
+            }
+          },
+          "relationship": {
+"identity": 807519,
+"start": 29616,
+"end": 338825,
+"type": "POSTS",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 29616,
+"labels": [
+              "Account"
+            ],
+"properties": {
+"friends_count": 50,
+"screen_name": "realDonaldTrump",
+"statuses_count": 56081,
+"followers_count": 86091475,
+"name": "Donald J. Trump",
+"description": "45th President of the United States of America🇺🇸",
+"id": "25073877"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    }
+  }
+]

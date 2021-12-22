@@ -1,0 +1,162 @@
+﻿[
+  {
+    "shortestpath((katty)-[:FOLLOWS*]->(kim))": {
+"start": {
+"identity": 55286,
+"labels": [
+          "Account"
+        ],
+"properties": {
+"friends_count": 224,
+"screen_name": "katyperry",
+"statuses_count": 10881,
+"followers_count": 108521347,
+"name": "KATY PERRY",
+"description": "Love. Light.",
+"id": "21447363"
+        }
+      },
+"end": {
+"identity": 41362,
+"labels": [
+          "Account"
+        ],
+"properties": {
+"friends_count": 127,
+"screen_name": "KimKardashian",
+"statuses_count": 33006,
+"followers_count": 66740871,
+"name": "Kim Kardashian West",
+"description": "Shop @kkwfragrance Diamonds II by Kourtney x Kim x Khloé now  & @SKIMS Sleep Naked Tuesday, 09.22 at 9AM PT",
+"id": "25365536"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 55286,
+"labels": [
+              "Account"
+            ],
+"properties": {
+"friends_count": 224,
+"screen_name": "katyperry",
+"statuses_count": 10881,
+"followers_count": 108521347,
+"name": "KATY PERRY",
+"description": "Love. Light.",
+"id": "21447363"
+            }
+          },
+          "relationship": {
+"identity": 1938733,
+"start": 55286,
+"end": 299306,
+"type": "FOLLOWS",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 299306,
+"labels": [
+              "Account"
+            ],
+"properties": {
+"friends_count": 398,
+"screen_name": "anya4yoga",
+"statuses_count": 15065,
+"followers_count": 273,
+"name": "Anya",
+"description": "Yoga and Qi Gong instructor, student of life. I",
+"id": "22421273"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 299306,
+"labels": [
+              "Account"
+            ],
+"properties": {
+"friends_count": 398,
+"screen_name": "anya4yoga",
+"statuses_count": 15065,
+"followers_count": 273,
+"name": "Anya",
+"description": "Yoga and Qi Gong instructor, student of life. I",
+"id": "22421273"
+            }
+          },
+          "relationship": {
+"identity": 1167659,
+"start": 299306,
+"end": 38502,
+"type": "FOLLOWS",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 38502,
+"labels": [
+              "Account"
+            ],
+"properties": {
+"friends_count": 2632,
+"screen_name": "dreaminoflwt",
+"statuses_count": 38102,
+"followers_count": 2628,
+"name": "manda⁹¹ 🦕",
+"description": "✨i just cry sometimes, it’s no big deal ◟̽◞̽ ✨",
+"id": "1729195496"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 38502,
+"labels": [
+              "Account"
+            ],
+"properties": {
+"friends_count": 2632,
+"screen_name": "dreaminoflwt",
+"statuses_count": 38102,
+"followers_count": 2628,
+"name": "manda⁹¹ 🦕",
+"description": "✨i just cry sometimes, it’s no big deal ◟̽◞̽ ✨",
+"id": "1729195496"
+            }
+          },
+          "relationship": {
+"identity": 2236382,
+"start": 38502,
+"end": 41362,
+"type": "FOLLOWS",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 41362,
+"labels": [
+              "Account"
+            ],
+"properties": {
+"friends_count": 127,
+"screen_name": "KimKardashian",
+"statuses_count": 33006,
+"followers_count": 66740871,
+"name": "Kim Kardashian West",
+"description": "Shop @kkwfragrance Diamonds II by Kourtney x Kim x Khloé now  & @SKIMS Sleep Naked Tuesday, 09.22 at 9AM PT",
+"id": "25365536"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    }
+  }
+]

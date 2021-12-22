@@ -1,0 +1,50 @@
+1.  
+
+neo4j-admin load --from=./import/tweets2021-440.dump --database=neo4j –force
+
+2.
+
+MATCH (ac1)-[rel:FOLLOWS]->(ac2)
+return ac2.name as name, count(rel) as follower_count order by count(rel) desc limit 5
+
+3.
+
+MATCH (katty:Account{screen_name:'katyperry'}),(kim:Account{screen_name:'KimKardashian'}) 
+return shortestpath((katty)-[:FOLLOWS*]->(kim))
+
+4.
+
+match (a:Account)-[posts:POSTS]->(tweets:Tweet)<-[retweets:RETWEETS]-(other1:Tweet)
+with a as accounts, count(retweets) as retweet_count order by retweet_count desc limit 10
+match (a)-[:POSTS]->(bad_tweets:Tweet)<-[bad_retweets:RETWEETS]-(other2:Tweet)
+return a as accounts,bad_tweets as tweet, count(bad_retweets) as bad_retweet_count order by bad_retweet_count asc limit 10
+
+5.
+
+match (trump:Account{screen_name:'realDonaldTrump'})-[:POSTS]->(tweets:Tweet)<-[retweets:RETWEETS]-(:Tweet)
+with trump, tweets as najretweet_trumpa, count(retweets) as retweet_count order by retweet_count desc limit 1
+create(trump)<-[:FOLLOWS]-(denis:Account{screen_name:'DeDe', name:'denis'})-[:POSTS]->(moj_tweet:Tweet{content:'epstein did not kill himself!'})-[:RETWEETS]->(najretweet_trumpa)
+return trump, najretweet_trumpa, denis, moj_tweet
+
+6.
+
+match (acc:Account{screen_name:'777stl'})-[rel:FOLLOWS]->(followed_acc_by_acc)<-[same_follows:FOLLOWS]-(other_acc:Account)
+where not (other_acc:Account)-[:FOLLOWS]->(acc)
+return other_acc, count(same_follows) as follows order by follows desc limit 10
+
+7.
+
+match (acc:Account{screen_name:'DaynerWilson'})-[:POSTS]->(tweet1:Tweet)-[:RETWEETS*]->(retweeted_tweet:Tweet)<-[:RETWEETS*]-(tweet2:Tweet)<-[posts_same:POSTS]-(other_acc:Account)
+return other_acc, count(posts_same) as same_retweets order by same_retweets desc limit 10
+
+8.
+
+match (acc_following:Account)-[:FOLLOWS*..5]->(acc_followed:Account)-[:POSTS]->(tweet:Tweet{id:"1289380305728503808"})
+optional match (tweets:Tweet)<-[:POSTS]-(acc_following:Account)
+where not (tweets:Tweet)-[:RETWEETS]->(tweet:Tweet)
+return tweet, tweets, apoc.coll.intersection(split(tweet.content,' '), split(tweets.content,' ')) as common_words, size(apoc.coll.intersection(split(tweet.content,' '), split(tweets.content,' '))) as common_word_count order by common_word_count desc limit 5
+
+BONUS
+
+match path=shortestpath((ac1:Account{screen_name:"katyperry"})-[rel1:RETWEETS|POSTS*]-(ac2:Account{screen_name:"realDonaldTrump"}))
+return path

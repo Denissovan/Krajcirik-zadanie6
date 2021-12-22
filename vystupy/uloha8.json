@@ -1,0 +1,197 @@
+﻿[
+  {
+    "tweet": {
+"identity": 313535,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"happened_at_str": "2020-08-01 01:59:55+00",
+"favorite_count": 1,
+"id": "1289380305728503808",
+"author_id": "2409412165",
+"content": "@JadeRhinos @eturleye @dougducey @SenMcSallyAZ Every decision they have made regarding COVID has been economically driven, which has allowed the virus to ravage our communities, and yet, when it came down to actually helping our economy, they adandonded our state’s unemployed.",
+"retweet_count": 0
+      }
+    },
+    "tweets": {
+"identity": 467729,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"happened_at_str": "2020-08-01 02:48:00+00",
+"favorite_count": 15,
+"id": "1289392408753401865",
+"author_id": "3073359672",
+"content": "@uaccn @SafeReturnUA @UofAlabama This law only applies to people actually infected by COVID, and not to the audience of your heinous email, which referenced “alternative arrangements” for day care and the like. So no. That wasn’t your intent, or your email would have explicitly said “if you get sick, etc”",
+"retweet_count": 0
+      }
+    },
+    "common_words": [
+      "and",
+      "have",
+      "which",
+      "the",
+      "actually",
+      "to"
+    ],
+    "common_word_count": 6
+  },
+  {
+    "tweet": {
+"identity": 313535,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"happened_at_str": "2020-08-01 01:59:55+00",
+"favorite_count": 1,
+"id": "1289380305728503808",
+"author_id": "2409412165",
+"content": "@JadeRhinos @eturleye @dougducey @SenMcSallyAZ Every decision they have made regarding COVID has been economically driven, which has allowed the virus to ravage our communities, and yet, when it came down to actually helping our economy, they adandonded our state’s unemployed.",
+"retweet_count": 0
+      }
+    },
+    "tweets": {
+"identity": 431671,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"happened_at_str": "2020-08-01 02:36:14+00",
+"favorite_count": 0,
+"id": "1289389448224862211",
+"author_id": "2375863494",
+"content": "@PolitiBunny From what I've read, the teachers will be much more likely to get COVID from other staff than they would from a pupil.  
+
+22 countries in Europe have schools open w/ no big problems.  Day care facilities have been open with no big problems.",
+"retweet_count": 0
+      }
+    },
+    "common_words": [
+      "been",
+      "COVID",
+      "have",
+      "they",
+      "the",
+      "to"
+    ],
+    "common_word_count": 6
+  },
+  {
+    "tweet": {
+"identity": 313535,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"happened_at_str": "2020-08-01 01:59:55+00",
+"favorite_count": 1,
+"id": "1289380305728503808",
+"author_id": "2409412165",
+"content": "@JadeRhinos @eturleye @dougducey @SenMcSallyAZ Every decision they have made regarding COVID has been economically driven, which has allowed the virus to ravage our communities, and yet, when it came down to actually helping our economy, they adandonded our state’s unemployed.",
+"retweet_count": 0
+      }
+    },
+    "tweets": {
+"identity": 625679,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"parent_id": "1289396126005825536",
+"happened_at_str": "2020-08-01 05:41:35+00",
+"favorite_count": 0,
+"id": "1289436090705670149",
+"author_id": "246039707",
+"content": "RT @dougmar_: the United States is the only country that still have a corona virus problem and Trump wants to focus on tik tok?",
+"retweet_count": 83587
+      }
+    },
+    "common_words": [
+      "virus",
+      "and",
+      "have",
+      "the",
+      "to"
+    ],
+    "common_word_count": 5
+  },
+  {
+    "tweet": {
+"identity": 313535,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"happened_at_str": "2020-08-01 01:59:55+00",
+"favorite_count": 1,
+"id": "1289380305728503808",
+"author_id": "2409412165",
+"content": "@JadeRhinos @eturleye @dougducey @SenMcSallyAZ Every decision they have made regarding COVID has been economically driven, which has allowed the virus to ravage our communities, and yet, when it came down to actually helping our economy, they adandonded our state’s unemployed.",
+"retweet_count": 0
+      }
+    },
+    "tweets": {
+"identity": 323175,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"happened_at_str": "2020-07-31 21:38:30+00",
+"favorite_count": 112,
+"id": "1289314520486129665",
+"author_id": "2856891904",
+"content": "The Heroes Act would provide a needed boost for home health caregivers and community centers to provide the type of rehab and long term care that covid critically ill patients need (for months) it they make it out of the ICU. Our leaders must pass it. https://t.co/rEwwUhyU1G",
+"retweet_count": 48
+      }
+    },
+    "common_words": [
+      "and",
+      "they",
+      "it",
+      "the",
+      "to"
+    ],
+    "common_word_count": 5
+  },
+  {
+    "tweet": {
+"identity": 313535,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"happened_at_str": "2020-08-01 01:59:55+00",
+"favorite_count": 1,
+"id": "1289380305728503808",
+"author_id": "2409412165",
+"content": "@JadeRhinos @eturleye @dougducey @SenMcSallyAZ Every decision they have made regarding COVID has been economically driven, which has allowed the virus to ravage our communities, and yet, when it came down to actually helping our economy, they adandonded our state’s unemployed.",
+"retweet_count": 0
+      }
+    },
+    "tweets": {
+"identity": 613135,
+"labels": [
+        "Tweet"
+      ],
+"properties": {
+"happened_at_str": "2020-07-30 02:11:08+00",
+"favorite_count": 1,
+"id": "1288658354458570753",
+"author_id": "22650991",
+"content": "Basically HCQ is a ZINC ionophore, which gets zinc into the cell (zinc normally can't), which stops the virus from doing what it need to do to replicate more of the virus. This is why ZINC is being prescribed with HCQ, for a double whammy against covid. https://t.co/IN91bIHLKd",
+"retweet_count": 1
+      }
+    },
+    "common_words": [
+      "virus",
+      "which",
+      "it",
+      "the",
+      "to"
+    ],
+    "common_word_count": 5
+  }
+]
